@@ -84,6 +84,11 @@ height: auto;
 .img__barberos:hover{
     transform:skew(2deg,2deg);
 }
+.centrar__carusel {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
 /* Css Galeria */
 .img__galeria {
     width: 350px;
@@ -93,6 +98,14 @@ height: auto;
     border-color: #0D0D0D;
 }
 
+/* Css Eventos */
+.img__eventos {
+    width: 500px;
+    height: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0D0D0D;
+}
 
 
 /* media queries Index */
