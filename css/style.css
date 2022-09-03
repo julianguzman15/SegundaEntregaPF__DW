@@ -68,7 +68,7 @@ height: auto;
     background-color: #262626;
 }
 .bg__main {
-    background-color:  #A6A6A6 ; 
+    background-image: radial-gradient(circle, #bfbfbf 20%, #a6a6a6 60%, #595959 100%); 
 }
 
 .img__barberos {
@@ -84,6 +84,16 @@ height: auto;
 .img__barberos:hover{
     transform:skew(2deg,2deg);
 }
+/* Css Galeria */
+.img__galeria {
+    width: 350px;
+    height: 350px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0D0D0D;
+}
+
+
 
 /* media queries Index */
 @media only screen and (max-width: 500px){
